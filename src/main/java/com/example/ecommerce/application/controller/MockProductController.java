@@ -10,7 +10,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/mock/products")
 public class MockProductController {
-
     // 상품 조회 API (Mock)
     @GetMapping
     public ResponseEntity<List<ProductResponse>> getAllProducts() {

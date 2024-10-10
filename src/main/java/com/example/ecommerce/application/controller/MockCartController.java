@@ -11,7 +11,7 @@ import java.util.*;
 @RequestMapping("/api/mock/cart")
 public class MockCartController {
 
-//    private final List<CartResponse> cart = new ArrayList<>();
+//    private final List<CartResponse> cart = new ArrayList<>()
     private final Map<Long, List<CartResponse>> cartMap = new HashMap<>();
 
     // 장바구니 조회 API (Mock)
